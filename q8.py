@@ -46,19 +46,3 @@ for i in range(0, len(data) - kernel_size + 1):
         max = product
 
 print(max)
-
-
-# for line in nums:
-    
-#     line_lst = [int(digit) for digit in line.strip()]
-
-#     for i in range(0, len(line_lst) - kernel_size + 1):
-#         product = 1
-#         for j in range(0, kernel_size):
-#             product *= line_lst[i + j]
-
-#         if product > max:
-#             max = product
-    
-
-# print(max)
